@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px){
+    .navbar{
+        position: relative;
+
+    }
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .corpo{
+        padding-top: 50px;
+    }
+
+    .lado_esquedo{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .lado_esquedo p{
+        text-align: center;
+    }
+
+    .imag{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .card{
+        width: 100%;
+        
+    }
+}

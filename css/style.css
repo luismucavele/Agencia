@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: #050e34;
+}
+
+
+/*toda parte que tem haver com o cabeçalho*/
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background: #050e34 ;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 30%;
+   /* border: 1px solid red;   para colocar uma borda fina que facilita na dimensao*/ 
+    text-align: center;
+    
+    
+}
+
+.logo h1{
+    font-family:"Lobster", sans-serif;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.menu{
+    flex: 70%;
+   /* border: 1px solid greenyellow;  para colocar uma borda fina que facilita na dimensao*/
+    text-align: right;
+    padding:20px;
+    
+}
+
+
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 16px;
+    cursor: pointer;
+}
+
+.menu a:hover{
+    color: #ff2978;
+    border-top: 3px solid #ff2978 ;
+}
+
+#botao{
+    background: #ff2978;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 5%;
+    color: white;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+#botao:hover{
+    border: none;
+    background: #2320db ;
+    
+    
+}
+
+
+
+
+/*toda parte que tem haver com o corpo*/
+
+.corpo{
+
+    display: flex;
+    flex-flow: row wrap;
+    background: #050e34;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+
+}
+
+.corpo h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+
+}
+
+.corpo p{
+    color: white;
+    text-align: left;
+}
+
+.contacto{
+    background: #ff2978;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+.contacto:hover{
+    background: #2320db;
+}
+
+.lado_esquedo{
+    flex: 30%;
+    margin-left: 10%;
+}
+
+.imag{
+    margin-right: 10%;
+    flex: 20%;
+   text-align: center;
+}
+
+
+section{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    display: inline-block;
+    text-align: center;
+    padding: 5%;  
+     
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.card p{
+    color: #ffffff;
+}
+
+.card h3{
+    color: #ffffff;
+}
+
+
+
+.card:hover{
+    background: #2320db;
+}
+
+
+footer{
+    margin-top: 100px;
+    height: 350px;
+    background-image: linear-gradient(180deg,#050e34,#050e34,#ff2978);
+    text-align: center;
+    
+}
+
+.rodape{
+    padding: 80px;
+
+}
+
+.agencia{
+    font-family:"Lobster", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
