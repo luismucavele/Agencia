@@ -24,19 +24,19 @@ body {
   padding: 10px 50px;
   position: fixed;
   width: 100%;
-  box-shadow: rgb(241, 3, 114) 0px 10px 10px -10px;
+  /*box-shadow: rgb(241, 3, 114) 0px 10px 10px -10px;*/
 }
 
 .logo {
   flex: 30%;
-  /* border: 1px solid red;   para colocar uma borda fina que facilita na dimensao*/
   text-align: center;
 }
 
-.logo h1 {
-  font-family: "Lobster", sans-serif;
-  color: white;
-  font-size: 30px;
+.logo img {
+  width: 100px;
+  height: 85px;
+  margin-right: 15px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -174,8 +174,8 @@ section h2 {
 
 /*Hospedagem de sites*/
 
-.plano-mensal{
-    border: 2px solid saddlebrown;
+.plano-mensal {
+  border: 2px solid saddlebrown;
 }
 .planos {
   margin-top: 20px;
@@ -188,7 +188,7 @@ section h2 {
 }
 
 .planos h2 {
-    border: 2px solid rgb(0, 255, 255);
+  border: 2px solid rgb(0, 255, 255);
   width: 100%;
   font-size: 40px;
   margin: 0;
@@ -196,6 +196,7 @@ section h2 {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .butoes {
@@ -214,7 +215,6 @@ section h2 {
   padding: 10px;
   border-radius: 50px;
   max-width: 400px; /* Limita a largura máxima */
-  
 }
 
 .butoes button {
@@ -227,7 +227,6 @@ section h2 {
   transition: all 0.3s ease;
   margin: 0 8px;
   font-size: 15px; /* Adiciona margem de 15px dos lados de cada botão */
- 
 }
 
 .butoes button.active {
@@ -237,12 +236,14 @@ section h2 {
 }
 
 .butoes button:hover {
-  background-color: rgba(0, 47, 255, 0.1); /* Fundo levemente azul ao passar o mouse */
+  background-color: rgba(
+    0,
+    47,
+    255,
+    0.1
+  ); /* Fundo levemente azul ao passar o mouse */
   color: rgb(0, 47, 255); /* Texto azul */
 }
-
-
-
 
 .hospedagem {
   display: inline-block;
@@ -265,13 +266,11 @@ section h2 {
 
 .card2 h3 {
   color: #ffffff;
-  
 }
-
 
 /*price*/
 
-.price-atual strong{
+.price-atual strong {
   color: #ff2978;
   font-size: 30px;
   text-align: center;
@@ -324,9 +323,78 @@ section h2 {
   font-size: 16px;
 }
 
-.rodape{
-    margin-top: 90px;
-    border: 2px solid rgb(0, 255, 255);
-    height: 700px;
+.recomendado {
+  background-color: #0fa301; /* Roxo */
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
+.sobre-nos {
+  margin: 20px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  background: #050e34;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #140e76;
+  border-radius: 30px;
+}
+
+.sobre-nos h2 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.sobre-nos p {
+  color: white;
+  text-align: left;
+}
+
+.decricao {
+  flex: 30%;
+  margin-left: 10%;
+  border: 2px solid rgb(30, 255, 0);
+}
+.decricao h2{
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.decricao ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagem {
+  border: 2px solid rgb(255, 0, 0);
+  margin-right: 10%;
+  flex: 10%;
+  text-align: center;
+}
+
+
+
+.rodape {
+  margin-top: 90px;
+  border: 2px solid rgb(0, 255, 255);
+  height: 300px;
+}
+
+.whats {
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+}
