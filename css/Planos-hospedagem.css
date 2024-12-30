@@ -1,0 +1,150 @@
+/*Hospedagem de sites*/
+
+.plano-mensal {
+    border: 2px solid saddlebrown;
+  }
+  .planos {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+    
+  }
+  
+  .planos h2 {
+   
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+  .butoes {
+    display: flex; /* Alinha os botões horizontalmente */
+    justify-content: center; /* Centraliza os botões */
+    gap: 30px; /* Aumente esse valor para mais espaço */
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .border-but {
+    border: 2px solid #f5f5f59a; /* Borda azul */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 10px;
+    border-radius: 50px;
+    max-width: 400px; /* Limita a largura máxima */
+  }
+  
+  .butoes button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: #5a5a5a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 8px;
+    font-size: 15px; /* Adiciona margem de 15px dos lados de cada botão */
+  }
+  
+  .butoes button.active {
+    background-color: rgb(0, 47, 255); /* Fundo azul */
+    color: white; /* Texto branco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+  
+  .butoes button:hover {
+    background-color: rgba(
+      0,
+      47,
+      255,
+      0.1
+    ); /* Fundo levemente azul ao passar o mouse */
+    color: rgb(0, 47, 255); /* Texto azul */
+  }
+  
+  .hospedagem {
+    display: inline-block;
+    margin-top: 5%;
+  }
+  
+  .card2 {
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+    margin: 1%;
+    border: 2px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .card2 p {
+    color: #ffffff;
+  }
+  
+  .card2 h3 {
+    color: #ffffff;
+  }
+  
+  /*price*/
+  
+  .price-atual strong {
+    color: #ff2978;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .card2 .contratar {
+    background-color: #6a0dad; /* Roxo */
+    color: white;
+    padding: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .card2 .contratar:hover {
+    background-color: #920dff; /* Cor ao passar o mouse */
+  }
+  
+  .card2 .card-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: left;
+  }
+  
+  .card2 .card-features li {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card2 .card-features strong {
+    font-weight: bold;
+  }
+  .card2 .card-features span {
+    font-weight: bold;
+    color: #ff2978;
+  }
+  
+
+  .recomendado {
+    background-color: #0fa301; /* Roxo */
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }

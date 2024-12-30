@@ -1,0 +1,49 @@
+/*toda parte que tem haver com o corpo*/
+
+.corpo {
+    display: flex;
+    flex-flow: row wrap;
+    background: #050e34;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  }
+  
+  .corpo h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .corpo p {
+    color: white;
+    text-align: left;
+  }
+  
+  .contacto {
+    background: #3f1c9a;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .contacto:hover {
+    background: #2320db;
+  }
+  
+  .lado_esquedo {
+    flex: 30%;
+    margin-left: 10%;
+  }
+  
+  .imag {
+    margin-right: 10%;
+    flex: 20%;
+    text-align: center;
+  }

@@ -1,0 +1,82 @@
+section {
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block;
+  text-align: center;
+  padding: 1%;
+}
+
+section h2 {
+  padding-top: 10px;
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.servicos {
+  display: inline-block;
+}
+
+
+.nosso-trabalho h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.servico {
+  margin-top: 50px;
+  margin: 20px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  background: #401c9a44;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+.servico h2 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #8a0404;
+  padding: 0;
+  margin: 0;
+}
+
+.servico p {
+  color: rgb(117, 12, 12);
+  text-align: left;
+}
+
+.decricao h2 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.decricao p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: start, ;
+  padding-right: 10px;
+}
+
+.imagem {
+  margin-right: 5%;
+  flex: 10%;
+  text-align: center;
+}

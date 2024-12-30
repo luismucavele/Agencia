@@ -7,6 +7,13 @@
     <meta name="keywords" content="Desenvolvimento web" />
     <meta name="outhor" content="Luis Antonio" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/Planos-hospedagem.css" />
+    <link rel="stylesheet" href="css/sobre-nos.css" />
+    <link rel="stylesheet" href="css/Vant-hospedagem.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
     <link rel="shortcut icon" href="img/EVOLUTION.png" type="image/x-icon" />
     <title>Evolution Tec</title>
@@ -50,18 +57,20 @@
       </div>
 
       <div class="imag">
-        <img src="img/website-designer-animate.svg" alt="imagem" />
+        <img src="img/hand-coding-animate.svg" alt="imagem" />
       </div>
     </header>
 
-    <section id="servicos">
-      <h2>O que podemos fazer por voçe?</h2>
-
+    <section class="nosso-trabalho" id="servicos">
       <div class="servicos">
-        <div class="card">
-          <img src="icon/icon web 60px.png" alt="icon web" />
-
-          <h3>Densevolvimento web</h3>
+        <h2>Nossos Serviços</h2>
+      </div>
+      <div class="servico" id="web">
+        <div class="imagem">
+          <img src="img/website-designer-animate.svg" alt="imagem" />
+        </div>
+        <div class="decricao">
+          <h2>Densevolvimento web</h2>
           <p>
             Criamos websites modernos, responsivos e intuitivos, que não apenas
             impressionam visualmente, mas também oferecem alta performance e
@@ -69,10 +78,11 @@
             sua presença digital seja robusta e profissional.
           </p>
         </div>
+      </div>
 
-        <div class="card">
-          <img src="icon/icon iphone 60px.png" alt="icone phone" />
-          <h3>Densevolvimento de Apps</h3>
+      <div class="servico" id="App">
+        <div class="decricao">
+          <h2>Densevolvimento de Apps</h2>
           <p>
             Transformamos ideias em aplicativos inovadores e funcionais,
             projetados para proporcionar a melhor experiência ao usuário.
@@ -81,15 +91,41 @@
           </p>
         </div>
 
-        <div class="card">
-          <img src="icon/icon design 60px.png" alt="icon designe" />
-          <h3>Design Gráfico</h3>
+        <div class="imagem">
+          <img src="img/mobile-browsers-animate.svg" alt="imagem" />
+        </div>
+      </div>
+
+      <div class="servico" id="Design">
+        <div class="imagem">
+          <img src="img/design-tools-animate.svg" alt="imagem" />
+        </div>
+        <div class="decricao">
+          <h2>Design Gráfico</h2>
           <p>
             Proporcionamos soluções criativas e exclusivas para destacar a
             identidade visual do seu negócio. Desenvolvemos desde logotipos
             únicos até materiais promocionais sofisticados, sempre com foco na
             comunicação eficiente e no impacto visual.
           </p>
+        </div>
+      </div>
+
+      <div class="servico" id="Marketing">
+        <div class="decricao">
+          <h2>Marketing Digital</h2>
+          <p>
+            Criamos estratégias de marketing inovadoras e personalizadas, que
+            vão além de impressionar, trazendo resultados reais para o seu
+            negócio. Utilizamos as melhores ferramentas e abordagens do mercado
+            para garantir que sua marca alcance o público certo, com impacto e
+            eficiência. Potencialize sua presença no mercado com campanhas que
+            combinam criatividade e performance.
+          </p>
+        </div>
+
+        <div class="imagem">
+          <img src="img/mobile-marketing-animate.svg" alt="imagem" />
         </div>
       </div>
     </section>
@@ -99,16 +135,16 @@
 
       <div class="butoes">
         <div class="border-but">
-          <a href="#"
+          <a href="#" id="btn-mensal"
             ><button><b>Mensal</b></button></a
           >
-          <a href="#"
+          <a href="#" id="btn-anual"
             ><button><b>Anual</b></button></a
           >
         </div>
       </div>
 
-      <div class="plano-mensal">
+      <div class="plano-mensal" id="plano-mensal">
         <div class="hospedagem">
           <div class="card2">
             <h3>Plano Inicial</h3>
@@ -238,6 +274,8 @@
         <img src="img/imagem da descricao.png" alt="imagem" />
       </div>
     </div>
+
+   
 
     <footer class="rodape"></footer>
 
