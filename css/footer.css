@@ -1,5 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
 .rodape {
-    margin-top: 90px;
-    border: 2px solid rgb(0, 255, 255);
-    height: 300px;
-  }
+  margin-top: 200px;
+  height: 250px;
+  background: rgb(0, 49, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 49, 255, 1) 25%,
+    rgba(4, 24, 105, 1) 49%,
+    rgba(5, 18, 72, 1) 58%,
+    rgba(5, 14, 52, 1) 75%
+  );
+}
+
+.rod {
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.rod h2 {
+  color: #ffffff;
+
+  text-align: center;
+  font-size: 30px;
+  font-family: "Oswald", serif;
+}
+
+.color {
+  margin-left: 50px;
+  margin-right: 50px;
+  background: white;
+  height: 2px;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.redes-sociais a img {
+  border: 2px solid #ffffff; /* Borda azul */
+  padding: 2px;
+  border-radius: 100%;
+}
+
+.linkedin:hover {
+  background: rgb(6, 85, 231);
+}
+
+.facebook:hover {
+  background: rgb(0, 17, 196);
+  background: linear-gradient(
+    39deg,
+    rgba(0, 17, 196, 1) 36%,
+    rgba(75, 129, 233, 1) 60%
+  );
+}
+
+.instagram:hover {
+  background: rgb(180, 175, 58);
+  background: linear-gradient(
+    39deg,
+    rgba(180, 175, 58, 1) 10%,
+    rgba(198, 113, 37, 1) 23%,
+    rgba(216, 54, 17, 1) 29%,
+    rgba(231, 4, 1, 1) 34%,
+    rgba(252, 69, 242, 1) 79%
+  );
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-align: left;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-column p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: white;
+}
+
+.footer-info p {
+  color: white;
+  text-align: center;
+}

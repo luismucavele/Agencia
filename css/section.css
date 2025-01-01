@@ -21,7 +21,6 @@ section h2 {
   display: inline-block;
 }
 
-
 .nosso-trabalho h2 {
   margin-top: 50px;
   font-size: 30px;
@@ -36,7 +35,20 @@ section h2 {
   margin: 20px 20px;
   display: flex;
   flex-flow: row wrap;
-  background: #401c9a44;
+  background: rgb(5, 14, 52);
+  background: linear-gradient(
+    24deg,
+    rgba(5, 14, 52, 1) 15%,
+    rgba(6, 16, 55, 1) 20%,
+    rgba(8, 19, 60, 1) 25%,
+    rgba(9, 21, 62, 1) 32%,
+    rgba(11, 24, 67, 1) 37%,
+    rgba(12, 26, 71, 1) 42%,
+    rgba(15, 32, 80, 1) 46%,
+    rgba(75, 129, 233, 1) 84%,
+    rgba(75, 129, 233, 1) 96%,
+    rgba(75, 129, 233, 1) 100%
+  );
   justify-content: center;
   align-items: center;
   margin-top: 50px;
@@ -46,7 +58,7 @@ section h2 {
 .servico h2 {
   font-weight: 900;
   font-size: 20px;
-  color: #8a0404;
+  color: #0f8a04;
   padding: 0;
   margin: 0;
 }
@@ -71,7 +83,7 @@ section h2 {
   display: flex;
   align-items: center;
   gap: 10px;
-  text-align: start, ;
+  text-align: start;
   padding-right: 10px;
 }
 

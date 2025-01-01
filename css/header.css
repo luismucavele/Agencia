@@ -20,10 +20,11 @@
   .corpo p {
     color: white;
     text-align: left;
+    font-weight: 100;
   }
   
   .contacto {
-    background: #3f1c9a;
+    background: #0804ca79;
     padding: 15px;
     color: white;
     text-transform: uppercase;
@@ -34,7 +35,7 @@
   }
   
   .contacto:hover {
-    background: #2320db;
+    background: #407bff;
   }
   
   .lado_esquedo {
