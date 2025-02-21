@@ -7,8 +7,8 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+   position: fixed;
     padding: 10px 50px;
-    position: fixed;
     width: 100%;
     
   }
